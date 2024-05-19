@@ -11,7 +11,7 @@ import userRoutes from "./routes/user.route.js";
 import exploreRoutes from "./routes/explore.route.js";
 import authRoutes from "./routes/auth.route.js";
 
-import connectMongoDB from "./db/connectMongoDB.js";
+import connectMongoDB from "./db/connectMongoDb.js";
 
 dotenv.config();
 
