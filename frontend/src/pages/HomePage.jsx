@@ -13,7 +13,7 @@ const HomePage = () => {
 
 	const [sortType, setSortType] = useState("recent");
 
-	const getUserProfileAndRepos=useCallback(async(username="Prasaddsahil07")=>{//to avoid infinite loop in useEffect
+	const getUserProfileAndRepos=useCallback(async(username="prasaddsahil07")=>{//to avoid infinite loop in useEffect
 		setLoading(true);
 		try {
 			const res = await fetch(`/api/users/profile/${username}`);
