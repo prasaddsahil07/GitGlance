@@ -36,7 +36,7 @@ const HomePage = () => {
 		getUserProfileAndRepos();
 	}, [getUserProfileAndRepos]);
 
-	const onSearch = async (e, username) => {
+	const onSearch = async (e, username = "prasaddsahil07") => {
 		e.preventDefault();
 
 		setLoading(true);
